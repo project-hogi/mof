@@ -1,5 +1,5 @@
 @cleanColor: #fff;
-	
+
 @baseColor-1: #424242;
 @baseColor-2: #f3f3f3;
 @baseColor-3: #666;
@@ -13,7 +13,7 @@
 @pointColor-1: #043b73;
 @pointColor-2: #1e64ba;
 @pointColor-3: #6ea3b5;
- 
+
 
 .container{
 	width: 1000px;
@@ -141,8 +141,8 @@ ul{
 	left: 295px;
 	top: 0;
 	>ul{
-		position: relative;
 		>li{
+			position: relative;
 			float: left;
 			>a{
 				display: inline-block;
@@ -168,6 +168,9 @@ ul{
 						line-height: 38px;
 						color: @baseColor-3;
 						background: url(../images/part/layout/bar.png) 0 50% no-repeat;
+						span{
+							position: relative;
+						}
 					}
 					&:first-child{
 						a{
@@ -179,6 +182,30 @@ ul{
 				}
 			}
 			
+			&.eq-1{
+				left: 0;
+			}
+			&.eq-2{
+				ul{
+					left: -110px;
+				}
+			}
+			&.eq-3{
+				ul{
+					left: -100px;
+				}
+			}
+			&.eq-4{
+				ul{
+					left: -320px;
+				}
+			}
+			&.eq-5{
+				ul{
+					left: -80px;
+				}
+			}
+			
 			&.on,
 			&.active,
 			&:hover,
@@ -186,6 +213,9 @@ ul{
 				>a{
 					span{
 						&:after{
+							position: absolute;
+							left: 0;
+							bottom: 0;
 							clear: both;
 							display: block;
 							content: '';
