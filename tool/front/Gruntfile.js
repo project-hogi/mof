@@ -146,13 +146,21 @@ module.exports = function(grunt) {
 					dest : '../../www/resources/front/images/'
 				} ],
 			},
+			service : {
+				files : [ {
+					expand : true,
+					cwd : '../../www/resources-dev/front/service/',
+					src : [ '**' ],
+					dest : '../../www/resources/front/service/'
+				} ],
+			},
 		},
 	});
 
 	grunt.registerTask('default', [ 'clean', 'watch' ]);
 	grunt.registerTask('buildFast', [ 'clean:primary', 'clean:beforeAndAfterBuild', 'copy', 'concat:build', 'uglify:build', 'lesslint', 'less:build', 'csscomb:build', 'autoprefixer:build',
 	                  			'cssmin:build', 'clean:beforeAndAfterBuild' ]);
-	grunt.registerTask('build', [ 'clean:primary', 'clean:beforeAndAfterBuild', 'copy:jsvendor', 'copy:fonts', 'concat:build', 'uglify:build', 'lesslint', 'less:build', 'csscomb:build', 'autoprefixer:build',
+	grunt.registerTask('build', [ 'clean:primary', 'clean:beforeAndAfterBuild', 'copy:jsvendor', 'copy:fonts', 'copy:service', 'concat:build', 'uglify:build', 'lesslint', 'less:build', 'csscomb:build', 'autoprefixer:build',
 	                  			'cssmin:build', 'imagemin:build', 'clean:beforeAndAfterBuild' ]);
 
 };
