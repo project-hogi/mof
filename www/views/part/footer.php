@@ -4,16 +4,16 @@
 	<div id="footer">
 		<div class="quick-bottom">
 			<ul>
-				<li><a href="#">해양수산통계소개</a></li>
-				<li><a href="#">개인정보처리방침</a></li>
-				<li><a href="#">뷰어다운로드</a></li>
-				<li><a href="#">홈페이지 이용약관</a></li>
-				<li><a href="#">이용안내</a></li>
+				<li><a href="#"><span>해양수산통계소개</span></a></li>
+				<li><a href="#"><span>개인정보처리방침</span></a></li>
+				<li><a href="#"><span>뷰어다운로드</span></a></li>
+				<li><a href="#"><span>홈페이지 이용약관</span></a></li>
+				<li><a href="#"><span>이용안내</span></a></li>
 			</ul>
 		</div>
 		<div class="container">
 			<div class="logo-footer">
-				<a href="#"><span class="sr-only">해양수산부</span></a>
+				<a href="/"><span class="sr-only">해양수산부</span></a>
 			</div>
 			<div class="address">
 				<address>
@@ -24,15 +24,20 @@
 					Copyright (c) 2016 Ministry of Oceans and Fisheries. All Rights Reserved.
 				</p>
 			</div>
-			<div class="family-site col-xs-2">
+			<div class="family-site">
 				<form action="">
 					<fieldset>
-						<select name="" id="" class="form-control">
-							<option value="">패밀리사이트 바로가기</option>
-							<option value="">패밀리사이트 바로가기</option>
-							<option value="">패밀리사이트 바로가기</option>
-							<option value="">패밀리사이트 바로가기</option>
-						</select>
+
+						<div class="form-group">
+							<label for="">
+								<select name="" id="" class="form-control form-control-family">
+									<option value="">패밀리사이트 바로가기</option>
+									<option value="">패밀리사이트 바로가기1</option>
+									<option value="">패밀리사이트 바로가기2</option>
+									<option value="">패밀리사이트 바로가기3</option>
+								</select>
+							</label>
+						</div>
 						<button type="submit" class="btn btn-primary"><span>이동</span></button>
 					</fieldset>
 				</form>
@@ -40,4 +45,29 @@
 		</div>
 	</div>
 </div>
+<div class="quick-menu">
+	<ul>
+		<li class="quick-1">
+			<a href="service-1.php">
+				<span class="sr-only">con1</span>
+			</a>
+		</li>
+		<li class="quick-2">
+			<a href="stats-1.php">
+				<span class="sr-only">con2</span>
+			</a>
+		</li>
+		<li class="quick-3">
+			<a href="indicator-1.php">
+				<span class="sr-only">con3</span>
+			</a>
+		</li>
+		<li class="quick-4">
+			<a href="information-1.php">
+				<span class="sr-only">con4</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- /.quick-menu -->
 <!-- //Footer.html -->
