@@ -25,22 +25,21 @@
 				</p>
 			</div>
 			<div class="family-site">
-				<form action="">
-					<fieldset>
-
-						<div class="form-group">
-							<label for="">
-								<select name="" id="" class="form-control form-control-family">
-									<option value="">패밀리사이트 바로가기</option>
-									<option value="">패밀리사이트 바로가기1</option>
-									<option value="">패밀리사이트 바로가기2</option>
-									<option value="">패밀리사이트 바로가기3</option>
-								</select>
-							</label>
-						</div>
-						<button type="submit" class="btn btn-primary"><span>이동</span></button>
-					</fieldset>
-				</form>
+				<div class="family-content">
+					<a href="#">패밀리사이트 바로가기</a>
+					<ul>
+						<li><a href="#">패밀리사이트 바로가기1</a></li>
+						<li><a href="#">패밀리사이트 바로가기2</a></li>
+						<li><a href="#">패밀리사이트 바로가기3</a></li>
+						<li><a href="#">패밀리사이트 바로가기2</a></li>
+						<li><a href="#">패밀리사이트 바로가기3</a></li>
+						<li><a href="#">패밀리사이트 바로가기2</a></li>
+						<li><a href="#">패밀리사이트 바로가기3</a></li>
+						<li><a href="#">패밀리사이트 바로가기2</a></li>
+						<li><a href="#">패밀리사이트 바로가기3</a></li>
+					</ul>
+				</div>
+				<a href="#" class="btn btn-primary"><span>이동</span></a>
 			</div>
 		</div>
 	</div>
@@ -49,22 +48,26 @@
 	<ul>
 		<li class="quick-1">
 			<a href="service-1.php">
-				<span class="sr-only">con1</span>
+				<span class="thum"><span class="sr-only">quick-1</span></span>
+				<strong class="name">이용안내</strong>
 			</a>
 		</li>
 		<li class="quick-2">
 			<a href="stats-1.php">
-				<span class="sr-only">con2</span>
+				<span class="thum"><span class="sr-only">quick-2</span></span>
+				<strong class="name">자주묻는질문</strong>
 			</a>
 		</li>
 		<li class="quick-3">
 			<a href="indicator-1.php">
-				<span class="sr-only">con3</span>
+				<span class="thum"><span class="sr-only">quick-3</span></span>
+				<strong class="name">통계서식정보</strong>
 			</a>
 		</li>
 		<li class="quick-4">
 			<a href="information-1.php">
-				<span class="sr-only">con4</span>
+				<span class="thum"><span class="sr-only">quick-4</span></span>
+				<strong class="name">품질진단안내</strong>
 			</a>
 		</li>
 	</ul>

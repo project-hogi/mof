@@ -8,7 +8,7 @@
 @baseColor-5-1: #e3e3e3;
 @baseColor-6: #333;
 @baseColor-7: #aaa;
-
+@baseColor-8: #e3f1f6;
 
 @pointColor-1: #043b73;
 @pointColor-2: #1e64ba;
@@ -32,7 +32,6 @@
 	left: 0;
 	top: 0;
 	z-index: 300;
-	overflow: hidden;
 	background: url(../images/part/layout/header-bg.gif) 0 94px repeat-x;
 	border-bottom: 2px solid @pointColor-1;
 	
@@ -158,7 +157,7 @@ ul{
 				display: none;
 				width: 1000px;
 				left: 0;
-				top: 95px;
+				top: 94px;
 				>li{
 					float: left;
 					>a{
@@ -296,30 +295,28 @@ ul{
 	position: absolute;
 	right: 0;
 	top: 94px;
-	width: 41px;
-	height: 41px;
+	width: 39px;
+	height: 39px;
 	background-color: @baseColor-2;
 	border: 1px solid #9f9f9f;
 	border-right: none;
 	z-index: 1000;
 	overflow: hidden;
 	
-	-webkit-transition: all ease-in-out 0.3s;
-	-moz-transition: all ease-in-out 0.3s;
-	-ms-transition: all ease-in-out 0.3s;
-	-o-transition: all ease-in-out 0.3s;
-	transition: all ease-in-out 0.3s;
-	
 	&:hover,
 	&:active,
 	&.on,
 	&.active{
-		width: 302px;
+		width: 307px;
+		overflow: visible;
 		.search-focus-wrap{
 			display: block;
 			right: 41px;
 			width: 265px;
 			z-index: 1000;
+		}
+		.search-type{
+			width: 100px;
 		}
 	}
 	.search-focus-wrap{
@@ -330,6 +327,49 @@ ul{
 		width: 0;
 	}
 	
+	.search-type{
+		width: 0;
+		float: left;
+		
+		&:hover,
+		&:active,
+		&.on,
+		&.active{
+			ul{
+				display: block;
+			}
+		}
+		>a{
+			background: @baseColor-2 url(../images/part/layout/select-search.png) 95% 50% no-repeat;
+		}
+		a{
+			display: block;
+			width: 100%;
+			height: 37px;
+			line-height: 37px;
+			padding: 0 20px 0 10px;
+			
+		}
+		ul{
+			z-index: 1000;
+			position: absolute;
+			left: -1px;
+			top: 37px;
+			display: none;
+			width: 100px;
+			border: 1px solid #9f9f9f;
+			background-color: @cleanColor;
+			
+			li{
+				a{
+					&:hover{
+						background-color: @pointColor-1;
+						color: @cleanColor;
+					}
+				}
+			}
+		}
+	}
 	.form-group{
 		display: inline-block;
 		margin: 0;
@@ -351,16 +391,6 @@ ul{
 				border: none;
 			}
 		}
-		&.form-search-select{
-			.form-control{
-				width: 100px;
-				padding-right: 20px;
-				background: @baseColor-2 url(../images/part/layout/select-search.png) 95% 50% no-repeat;
-				-webkit-appearance: none;
-				-moz-appearance: none;
-				appearance: none;
-			}
-		}
 		&.form-search-text{
 			.form-control{
 				width: 160px;
@@ -370,10 +400,10 @@ ul{
 	.btn-search{
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: -1px;
 		display: inline-block;
-		width: 41px;
-		height: 41px;
+		width: 39px;
+		height: 39px;
 		background-color: @pointColor-1;
 		border-radius: 0;
 		color: @cleanColor;
@@ -386,7 +416,6 @@ ul{
 #footer{
 	border-top: 2px solid @pointColor-1;
 	background-color: #fff;
-	overflow: hidden;
 	height: 170px;
 	
 	.container{
@@ -432,45 +461,66 @@ ul{
 	
 }
 .family-site{
-	width: 213px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 233px;
 	margin-top: 8px;
 	
-	.form-group{
+	.family-content{
 		position: relative;
-		float: left;
+		display: block;
+		margin: 0;
 		
-		.form-control-family {
+		>a{
+			display: block;
+			float: left;
 			width: 170px;
-			margin: 0;
+			height: 33px;
 			padding: 9px 32px 9px 10px;
-			border: 1px solid @baseColor-5-1;
 			border-radius: 0;
-			box-shadow: none;
-			outline: 0 none;
+			border: 1px solid @baseColor-5-1;
+			background: url(../images/part/layout/select.png) 100% 50% no-repeat;
+			
+		}
+		a{
+			display: block;
+			height: 33px;
+			padding: 9px 32px 9px 10px;
 			font-size: 11px;
 			color: #666;
 			font-weight: normal;
-			background: url(../images/part/layout/select.png) 100% 50% no-repeat;
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			appearance: none;
 			
-			option{
-				display: block;
-				height: 43px;
-				line-height: 43px;
+		}
+		ul{
+			display: none;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 170px;
+			border: 1px solid @baseColor-5-1;
+			background-color: @cleanColor;
+			
+			li{
+				a{
+					&:hover{
+						background-color: @pointColor-1;
+						color: @cleanColor;
+					}
+				}
 			}
 			
-			
-			&:focus{
-				border-color: none;
-				box-shadow: none;
-				outline: 0 none;
+		}
+		
+		&:hover{
+			ul{
+				display: block;
 			}
 		}
 	}
 	.btn{
 		margin-left: 4px;
+		color: @cleanColor;
 	}
 	
 	
@@ -534,45 +584,95 @@ ul{
 .quick-menu{
 	z-index: 500;
 	position: fixed;
-	right: 0;
+	right: -120px;
 	top: 170px;
 	display: inline-block;
-	width: 50px;
+	width: 170px;
+	overflow: hidden;
+	-webkit-transition: right ease-in-out 0.3s;
+	-moz-transition: right ease-in-out 0.3s;
+	-ms-transition: right ease-in-out 0.3s;
+	-o-transition: right ease-in-out 0.3s;
+	transition: right ease-in-out 0.3s;
+	
+	&:hover,
+	&:active,
+	&.on,
+	&.active{
+		right: 0;
+	}
+	
 	
 	ul{
 		li{
-			margin-top: 1px;
+			display: block;
+			height: 50px;
+			margin-bottom: 1px;
 			a{
 				display: block;
-				height: 50px;
-				background: @pointColor-3 url(../images/part/layout/quick-1.png) 50% 50% no-repeat;
+				.thum{
+					display: block;
+					width: 50px;
+					height: 50px;
+					float: left;
+					background: @pointColor-3 url(../images/part/layout/quick-1.png) 50% 50% no-repeat;
+				}
+				.name{
+					display: block;
+					float: left;
+					width: 120px;
+					height: 50px;
+					padding: 0 30px 0 10px;
+					line-height: 50px;
+					font-size: 14px;
+					font-weight: bold;
+					color: @pointColor-3;
+					background: @baseColor-8 url(../images/part/layout/quick-bg.png) 90% 50% no-repeat;
+				}
 				
 				&:hover,
 				&:focus,
 				&.on,
 				&.active{
-					background-color: @pointColor-1;
+					.thum{
+						background-color: @pointColor-1;
+					}
+					.name{
+						background-image: url(../images/part/layout/quick-bg-on.png);
+						background-color: @cleanColor;
+						color: @pointColor-1;
+						
+						
+					}
 				}
 			}
 			
 			&.quick-1{
 				a{
-					background-image: url(../images/part/layout/quick-1.png);
+					.thum{
+						background-image: url(../images/part/layout/quick-1.png);
+					}
 				}
 			}
 			&.quick-2{
 				a{
-					background-image: url(../images/part/layout/quick-2.png);
+					.thum{
+						background-image: url(../images/part/layout/quick-2.png);
+					}
 				}
 			}
 			&.quick-3{
 				a{
-					background-image: url(../images/part/layout/quick-3.png);
+					.thum{
+						background-image: url(../images/part/layout/quick-3.png);
+					}
 				}
 			}
 			&.quick-4{
 				a{
-					background-image: url(../images/part/layout/quick-4.png);
+					.thum{
+						background-image: url(../images/part/layout/quick-4.png);
+					}
 				}
 			}
 		}
@@ -611,6 +711,7 @@ ul{
 label{
 	vertical-align: middle;
 	margin-bottom: 0;
+	font-weight: normal;
 }
 input[type="radio"]{
 	margin: 0 3px 3px 3px;

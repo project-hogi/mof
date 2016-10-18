@@ -71,16 +71,15 @@
 				<form action="">
 					<fieldset>
 						<div class="search-focus-wrap">
-							<div class="form-group form-search-select">
-								<label for="">
-									<select name="" id="" class="form-control">
-										<option value="">통합검색</option>
-										<option value="">통합검색1</option>
-										<option value="">통합검색2</option>
-										<option value="">통합검색3</option>
-										<option value="">통합검색4</option>
-									</select>
-								</label>
+							<div class="search-type">
+								<a href="#">통합검색</a>
+								<ul>
+									<li><a href="#">통합검색1</a></li>
+									<li><a href="#">통합검색2</a></li>
+									<li><a href="#">통합검색3</a></li>
+									<li><a href="#">통합검색4</a></li>
+									<li><a href="#">통합검색5</a></li>
+								</ul>
 							</div>
 							<div class="form-group form-search-text">
 								<label for="">

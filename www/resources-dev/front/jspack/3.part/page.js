@@ -17,9 +17,7 @@
 				}else{
 					$search.addClass('active');
 				}
-
 			});
-
 		});
 	});
 
