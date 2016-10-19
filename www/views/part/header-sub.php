@@ -1,5 +1,6 @@
 <!-- Header Sub.html -->
-<div id="snb">
+<div class="container">
+	<div id="snb">
 
 	<h2>
 		<strong>

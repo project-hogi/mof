@@ -93,7 +93,5 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="container">
-		<div class="container">
 			<!-- Header.html -->

@@ -1,5 +1,4 @@
 <!-- Footer.html -->
-		</div>
 	</div>
 	<div id="footer">
 		<div class="quick-bottom">

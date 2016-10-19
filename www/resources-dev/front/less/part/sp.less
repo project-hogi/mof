@@ -1,0 +1,202 @@
+
+.notice-sp{
+	position: relative;
+	display: inline-block;
+	width: 53px;
+	height: 16px;
+	background: url(../images/part/sp/notice-sp.png) 0 -16px no-repeat;
+	
+	&.eq-1{
+		background-position: 0 -16;
+		
+		&:hover,
+		&:focus,
+		&.on,
+		&.active{
+			background-position: 0 0;
+			
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+				width: 100%;
+				height: 2px;
+				background-color: @pointColor-1;
+				position: absolute;
+				left: 0;
+				bottom: -10px;
+				
+			}
+		}
+	}
+	&.eq-2{
+		background-position: -74px -16px;
+		
+		&:hover,
+		&:focus,
+		&.on,
+		&.active{
+			background-position: -74px 0;
+			
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+				width: 100%;
+				height: 2px;
+				background-color: @pointColor-1;
+				position: absolute;
+				left: 0;
+				bottom: -10px;
+				
+			}
+		}
+	}
+	&.eq-3{
+		background-position: -148px -16px;
+		
+		&:hover,
+		&:focus,
+		&.on,
+		&.active{
+			background-position: -148px 0;
+			
+			&:after{
+				clear: both;
+				display: block;
+				content: '';
+				width: 100%;
+				height: 2px;
+				background-color: @pointColor-1;
+				position: absolute;
+				left: 0;
+				bottom: -10px;
+				
+			}
+		}
+	}
+}
+
+.family-index-sp{
+	z-index: 110;
+	display: inline-block;
+	width: 32px;
+	height: 35px;
+	background: url(../images/part/sp/family-index-control.png) 0 0 no-repeat;
+	
+	&.btn-family-prev{
+		background-position: 0 0;
+	}
+	&.btn-family-pause{
+		background-position: -32px 0;
+	}
+	&.btn-family-play{
+		background-position: -64px 0;
+	}
+	&.btn-family-next{
+		background-position: -96px 0;
+	}
+	
+	&.left{
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -17px;
+	}
+	&.right{
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -17px;
+	}
+	&.right-2{
+		position: absolute;
+		right: 35px;
+		top: 50%;
+		margin-top: -17px;
+		
+	}
+}
+.icon-sp{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background: url(../images/part/sp/icon-sp.png) 0 0 no-repeat;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-top: -2px;
+	
+	&.new{
+		background-position: 0 0;
+	}
+}
+.stock-sp{
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	background: url(../images/part/main/main-stock-prev.png) 50% 50% no-repeat;
+	border: 1px solid rgba(255,255,255,0.3);
+	
+	&.stock-prev{
+		background-image: url(../images/part/main/main-stock-prev.png);
+	}
+	&.stock-pause{
+		background-image: url(../images/part/main/main-stock-pause.png);
+	}
+	&.stock-play{
+		background-image: url(../images/part/main/main-stock-play.png);
+	}
+	&.stock-next{
+		background-image: url(../images/part/main/main-stock-next.png);
+	}
+}
+.main-quick{
+	ul{
+		li{
+			background: url(../images/part/main/main-quick-1.png) 50% 35% no-repeat;
+			
+			&.eq-1{
+				background-image: url(../images/part/main/main-quick-1.png);
+			}
+			&.eq-2{
+				background-image: url(../images/part/main/main-quick-2.png);
+			}
+			&.eq-3{
+				background-image: url(../images/part/main/main-quick-3.png);
+			}
+			&.eq-4{
+				background-image: url(../images/part/main/main-quick-4.png);
+			}
+			&.eq-5{
+				background-image: url(../images/part/main/main-quick-5.png);
+			}
+			&.eq-6{
+				background-image: url(../images/part/main/main-quick-6.png);
+			}
+		}
+	}
+}
+.rolling-btn{
+	display: inline-block;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	
+	&.btn-1-1{
+		width: 197px;
+		height: 37px;
+		background-image: url(../images/part/main/rolling-banner-1-1-btn.png);
+	}
+	
+	&.btn-1-2{
+		width: 155px;
+		height: 37px;
+		background-image: url(../images/part/main/rolling-banner-1-2-btn.png);
+	}
+	
+}
+.btn-notice-more{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../images/part/main/btn-notice-more.png) 50% 50% no-repeat;
+}
