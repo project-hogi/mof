@@ -41,7 +41,7 @@
 				timeout : 2400,
 				fx : 'fade',
 				log : false,
-				pauseOnHover : false,
+				pauseOnHover : true,
 				pagerActiveClass : 'on'
 			};
 			var $prev = $('.prev').each(function() {
@@ -75,7 +75,7 @@
 				timeout : 2400,
 				fx : 'fade',
 				log : false,
-				pauseOnHover : false,
+				pauseOnHover : true,
 				pagerActiveClass : 'on'
 			};
 			var $prev = $('.prev').each(function() {
@@ -109,7 +109,7 @@
 				timeout : 2400,
 				fx : 'fade',
 				log : false,
-				pauseOnHover : false,
+				pauseOnHover : true,
 				pagerActiveClass : 'on'
 			};
 			var $prev = $('.prev').each(function() {
@@ -143,7 +143,7 @@
 				timeout : 2400,
 				fx : 'fade',
 				log : false,
-				pauseOnHover : false,
+				pauseOnHover : true,
 				pagerActiveClass : 'on'
 			};
 			var $prev = $('.prev').each(function() {
