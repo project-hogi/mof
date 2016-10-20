@@ -1,4 +1,48 @@
 <!-- Header.html -->
+<div id="top-banner" class="on">
+	<div class="container">
+		<div class="banner-box">
+			<ul>
+				<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/banner/top/con-1.png" alt=""><span class="sr-only">2016년도 해양청정에너지기술개발사업 신규과제 선정계획 한국해양과학기술진흥원 R&D통합관리시스템을 통해 신청서 제출</span></a></li>
+				<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/banner/top/con-1.png" alt=""><span class="sr-only"></span></a></li>
+				<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/banner/top/con-1.png" alt=""><span class="sr-only"></span></a></li>
+			</ul>
+		</div>
+		<div class="controller">
+			<a href="#" class="tb-prev"><span class="sr-only">이전</span></a>
+			<a href="#" class="tb-next"><span class="sr-only">다음</span></a>
+		</div>
+		<div class="pagination">
+			<a href="#" class="active"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</div>
+		<div class="close-set">
+			<form action="">
+				<filedset>
+					<label for="tb-close-1day"><input type="checkbox" id="tb-close-1day"> 1일간 열지않음</label>
+					<button type="submit" class="btn-tb-close"><span class="sr-only">상단배너 닫기</span></button>
+				</filedset>
+			</form>
+		</div>
+	</div>
+	<!-- #top-banner script -->
+	<script>
+		$(document).on("appinit", function() {
+			$('#top-banner').each(function(){
+				var $topBanner = $(this);
+				var $btnTbClose = $('.btn-tb-close', $topBanner);
+				$btnTbClose.on('click', function(){
+					var $quickMenu = $('.quick-menu');
+					$topBanner.removeClass('on active');
+					$quickMenu.removeClass('top-banner');
+					return false;
+				});
+			});
+		});
+	</script>
+</div>
+<!-- /#top-banner -->
 <div id="wrap">
 	<div id="header">
 		<div class="container">
@@ -64,7 +108,7 @@
 				<ul>
 					<li class="on"><a href="/"><span>HOME</span></a></li>
 					<li><a href="participation-1.php"><span>EVENT</span></a></li>
-					<li class="sitemap"><a href="#sitemap"><span class="sr-only">SITEMAP</span></a></li>
+					<li class="sitemap"><a href="#sitemap" class="btn-sitemap"><span class="sr-only">SITEMAP</span></a></li>
 				</ul>
 			</div>
 			<div class="search">
@@ -94,4 +138,4 @@
 		</div>
 	</div>
 	<div id="container">
-			<!-- Header.html -->
+		<!-- Header.html -->

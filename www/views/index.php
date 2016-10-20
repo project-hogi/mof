@@ -28,7 +28,7 @@
 							<span class="sr-only">이용자들이 해양수산 통계 정보를 쉽게 이해 할 수 있도록 차트와 그래프를 통한 시각화된 통계 정보를 제공합니다. 보다 이해하기 쉬운 통계 정보를 꾸준히 발굴하여 제공 할 수 있도록 하겠습니다.</span>
 							<a href="#" class="rolling-btn btn-1-1"><span class="sr-only">해양수산 통계 대시보드 바로가기</span></a>
 						</li>
-						<li style="background-image: url('<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-1-2.jpg);">
+						<li style="background-image: url('<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-1-2.jpg')">
 							<a href="#">
 								<img src="<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-1-2-text.png" alt="통계포털 이렇게 이용하세요!">
 								<span class="sr-only">해양수산 통계 포털을 이용하기 위한 이용 안내 가이드를 제공합니다. 통계를 조회 하고 활용하는 방법, 대시보드를 활용하는 방법 등 통계 포털의 주요 서비스에 대해 알기 쉽게 안내해 드립니다.</span>
@@ -117,7 +117,7 @@
 					<h4 class="sr-only">메인 롤링배너</h4>
 					<ul>
 						<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-4-1.jpg" alt=""><span class="sr-only"></span></a></li>
-						<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-4-2.jpg" alt=""><span class="sr-only"></span></a></li>
+						<li><a href="#"><img src="<?php echo $config["resourcesDir"]; ?>/images/part/main/rolling-banner-4-1.jpg" alt=""><span class="sr-only"></span></a></li>
 					</ul>
 					<div class="pagination">
 						<a href="#" class="on"></a>
