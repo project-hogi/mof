@@ -1,6 +1,6 @@
 <!-- Sub Footer.html -->
 	</div>
-	<!-- /#snb -->
+	<!-- /#content -->
 </div>
 <!-- /.container -->
 <!-- //Sub Footer.html -->
