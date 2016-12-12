@@ -23,25 +23,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/views/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="167" column="65" selection-start-line="167" selection-start-column="65" selection-end-line="167" selection-end-column="65" />
+                <state relative-caret-position="562">
+                  <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
                   <folding>
                     <element signature="e#390#497#0#HTML" expanded="true" />
-                    <element signature="e#4391#4494#0#HTML" expanded="true" />
-                    <element signature="e#5035#5139#0#HTML" expanded="true" />
+                    <element signature="e#4446#4549#0#HTML" expanded="true" />
+                    <element signature="e#5090#5194#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/views/part/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="795">
-                  <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+                <state relative-caret-position="798">
+                  <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -50,8 +50,18 @@
           <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/views/part/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+                <state relative-caret-position="-198">
+                  <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app-header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/views/part/app-header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="369">
+                  <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +70,8 @@
           <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="513">
+                  <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -73,7 +83,7 @@
                 <state relative-caret-position="703">
                   <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
                   <folding>
-                    <marker date="1481523292254" expanded="true" signature="469:7330" ph="{...}" />
+                    <marker date="1481526944534" expanded="true" signature="469:7453" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -86,8 +96,8 @@
           <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-886">
-                  <caret line="652" column="29" selection-start-line="652" selection-start-column="29" selection-end-line="652" selection-end-column="29" />
+                <state relative-caret-position="292">
+                  <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -106,8 +116,8 @@
           <file leaf-file-name="layout.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="304" column="14" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="14" />
+                <state relative-caret-position="646">
+                  <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -135,13 +145,14 @@
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/table.less" />
         <option value="$PROJECT_DIR$/www/views/search-detail.php" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/etc.less" />
-        <option value="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" />
-        <option value="$PROJECT_DIR$/www/views/index.php" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/sp.less" />
-        <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/main.less" />
-        <option value="$PROJECT_DIR$/www/views/part/header.php" />
         <option value="$PROJECT_DIR$/www/views/part/footer.php" />
+        <option value="$PROJECT_DIR$/www/views/part/app-header.php" />
+        <option value="$PROJECT_DIR$/www/views/part/header.php" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/main.less" />
+        <option value="$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js" />
         <option value="$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less" />
+        <option value="$PROJECT_DIR$/www/views/index.php" />
       </list>
     </option>
   </component>
@@ -484,12 +495,12 @@
       <updated>1478155754942</updated>
       <workItem from="1478155756108" duration="1533000" />
       <workItem from="1478762036031" duration="8697000" />
-      <workItem from="1481502994223" duration="19750000" />
+      <workItem from="1481502994223" duration="21693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29980000" />
+    <option name="totallyTimeSpent" value="31923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="3" width="2481" height="1444" extended-state="0" />
@@ -823,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../statmof_season_theme_pub/www/resources/css/seacon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -855,47 +858,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/main.less">
+    <entry file="file://$PROJECT_DIR$/www/views/part/app-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-886">
-          <caret line="652" column="29" selection-start-line="652" selection-start-column="29" selection-end-line="652" selection-end-column="29" />
+        <state relative-caret-position="369">
+          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="167" column="65" selection-start-line="167" selection-start-column="65" selection-end-line="167" selection-end-column="65" />
-          <folding>
-            <element signature="e#390#497#0#HTML" expanded="true" />
-            <element signature="e#4391#4494#0#HTML" expanded="true" />
-            <element signature="e#5035#5139#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/views/part/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="-198">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/views/part/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        <state relative-caret-position="798">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/jspack/3.part/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding>
+            <marker date="1481526944534" expanded="true" signature="469:7453" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/layout.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="304" column="14" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="14" />
+        <state relative-caret-position="646">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding>
+            <element signature="e#390#497#0#HTML" expanded="true" />
+            <element signature="e#4446#4549#0#HTML" expanded="true" />
+            <element signature="e#5090#5194#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

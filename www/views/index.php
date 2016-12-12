@@ -66,6 +66,7 @@
 						<li>
 							<a href="#none" class="menu-3"><span class="sr-only">수산물 가공업통계</span></a>
 							<div class="depth2 non-content">
+								<!-- class="non-content" 가 붙으면 준비중으로 이미지 노출-->
 							</div>
 						</li>
 						<li>

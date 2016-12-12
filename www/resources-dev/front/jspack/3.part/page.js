@@ -10,7 +10,6 @@
 			var $mainMenu = $(this);
 			var $menuList = $('.menu-list', $mainMenu);
 			var $menuDepth1Li = $('>li', $menuList);
-			var $menuDepth1Li = $('>li', $menuList);
 			$menuDepth1Li.has('.depth2').addClass('haschildren');
 		});
 

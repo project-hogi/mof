@@ -145,13 +145,13 @@
 					&:after{
 						position: absolute;
 						left: -8px;
-						top: 10px;
+						top: 0;
 						clear: both;
 						display: block;
 						content: '';
 						width: 8px;
-						height: 11px;
-						background: url(../images/part/main/depth2-arrow.png) 0 0 no-repeat;
+						height: 31px;
+						background: url(../images/part/main/depth2-arrow.png) 0 10px no-repeat;
 					}
 				}
 				
@@ -159,6 +159,10 @@
 				&:focus,
 				&.on,
 				&.active{
+					>a{
+						background-image: url(../images/part/main/menu-list-depth1-on.png);
+						background-color: #0a4683;
+					}
 					.depth2{
 						display: block;
 					}
