@@ -47,50 +47,6 @@
 <body class="layout-index">
 <!-- //App Header.html -->
 <!-- Header.html -->
-<div id="top-banner" class="on">
-	<div class="container">
-		<div class="banner-box">
-			<ul>
-				<li><a href="#"><img src="../resources/front/images/part/banner/top/con-1.png" alt=""><span class="sr-only">2016년도 해양청정에너지기술개발사업 신규과제 선정계획 한국해양과학기술진흥원 R&D통합관리시스템을 통해 신청서 제출</span></a></li>
-				<li><a href="#"><img src="../resources/front/images/part/banner/top/con-1.png" alt=""><span class="sr-only"></span></a></li>
-				<li><a href="#"><img src="../resources/front/images/part/banner/top/con-1.png" alt=""><span class="sr-only"></span></a></li>
-			</ul>
-		</div>
-		<div class="controller">
-			<a href="#" class="tb-prev"><span class="sr-only">이전</span></a>
-			<a href="#" class="tb-next"><span class="sr-only">다음</span></a>
-		</div>
-		<div class="pagination">
-			<a href="#" class="active"></a>
-			<a href="#"></a>
-			<a href="#"></a>
-		</div>
-		<div class="close-set">
-			<form action="">
-				<filedset>
-					<label for="tb-close-1day"><input type="checkbox" id="tb-close-1day"> 1일간 열지않음</label>
-					<button type="submit" class="btn-tb-close"><span class="sr-only">상단배너 닫기</span></button>
-				</filedset>
-			</form>
-		</div>
-	</div>
-	<!-- #top-banner script -->
-	<script>
-		$(document).on("appinit", function() {
-			$('#top-banner').each(function(){
-				var $topBanner = $(this);
-				var $btnTbClose = $('.btn-tb-close', $topBanner);
-				$btnTbClose.on('click', function(){
-					var $quickMenu = $('.quick-menu');
-					$topBanner.removeClass('on active');
-					$quickMenu.removeClass('top-banner');
-					return false;
-				});
-			});
-		});
-	</script>
-</div>
-<!-- /#top-banner -->
 <div id="wrap">
 	<div id="header">
 		<div class="container">
@@ -188,105 +144,201 @@
 	<div id="container">
 		<!-- Header.html -->
 	<div class="page-index">
-		<div class="container">
-			<div class="visual">
-				<h2 class="sr-only">비주얼</h2>
-				<div class="main-box type-2 rolling-banner-2">
-					<h3 class="sr-only">롤링배너 1</h3>
-					<ul>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-2-1.jpg" alt=""><span class="sr-only"></span></a></li>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-2-1.jpg" alt=""><span class="sr-only"></span></a></li>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-2-1.jpg" alt=""><span class="sr-only"></span></a></li>
-					</ul>
-					<div class="pagination">
-						<a href="#" class="on"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-					</div>
-				</div>
-				<div class="main-box type-1 rolling-banner-1">
-					<h3 class="sr-only">메인 비주얼</h3>
-					<ul>
-						<li style="background-image: url('../resources/front/images/part/main/rolling-banner-1-1.jpg');">
-							<img src="../resources/front/images/part/main/rolling-banner-1-1-text.png" alt="알기 쉬운 해양수산 통계!">
-							<span class="sr-only">이용자들이 해양수산 통계 정보를 쉽게 이해 할 수 있도록 차트와 그래프를 통한 시각화된 통계 정보를 제공합니다. 보다 이해하기 쉬운 통계 정보를 꾸준히 발굴하여 제공 할 수 있도록 하겠습니다.</span>
-							<a href="#" class="rolling-btn btn-1-1"><span class="sr-only">해양수산 통계 대시보드 바로가기</span></a>
+	<div class="container">
+		<div class="visual">
+			<h2 class="sr-only">비주얼</h2>
+			<div class="main-box type-main bg-style" style="background-image: url(../resources/front/images/part/main/main-content-bg.jpg);">
+				<h3 class="sr-only">
+					<strong>해양</strong>수산통계시스템
+					<span class="small">MINISTRY OF OCEANS AND FISHERIES</span>
+				</h3>
+				<div class="main-menu">
+					<ul class="menu-list">
+						<li>
+							<a href="#none" class="menu-1"><span class="sr-only">등록선박통계</span></a>
+							<div class="depth2">
+								<ul class="depth2-list">
+									<li>
+										<a href="#none"><span>선령/용도/자방청별 통계(부선) 정보</span></a>
+										<ul class="depth3-list">
+											<li>
+												<a href="#"><span>통계표 조회</span></a>
+											</li>
+											<li>
+												<a href="#"><span>지도통계</span></a>
+											</li>
+											<li>
+												<a href="#"><span>데이터 시각화</span></a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#none"><span>지방청별 선박용도별(부선) 통계 정보</span></a>
+										<ul class="depth3-list">
+											<li>
+												<a href="#"><span>통계표 조회</span></a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#none"><span>톤수별 선령별 통계(부선) 정보</span></a>
+										<ul class="depth3-list">
+											<li>
+												<a href="#"><span>통계표 조회</span></a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#none"><span>톤수별 선박용도별 통계(부선)</span></a>
+										<ul class="depth3-list">
+											<li>
+												<a href="#"><span>통계표 조회</span></a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
 						</li>
-						<li style="background-image: url('../resources/front/images/part/main/rolling-banner-1-2.jpg')">
-							<a href="#">
-								<img src="../resources/front/images/part/main/rolling-banner-1-2-text.png" alt="통계포털 이렇게 이용하세요!">
-								<span class="sr-only">해양수산 통계 포털을 이용하기 위한 이용 안내 가이드를 제공합니다. 통계를 조회 하고 활용하는 방법, 대시보드를 활용하는 방법 등 통계 포털의 주요 서비스에 대해 알기 쉽게 안내해 드립니다.</span>
-								<a href="#" class="rolling-btn btn-1-2"><span class="sr-only">통계 이용안내 바로가기</span></a>
-							</a>
+						<li>
+							<a href="#none" class="menu-2"><span class="sr-only">등록어선통계</span></a>
+							<!--class="depth2" 가 없을경우 화살표 표시되지 않음-->
+						</li>
+						<li>
+							<a href="#none" class="menu-3"><span class="sr-only">수산물 가공업통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-4"><span class="sr-only">수산물 검역 및 수출검사 통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-5"><span class="sr-only">어업법인조사</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-6"><span class="sr-only">연안습지면적현황</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-7"><span class="sr-only">운항선박통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-8"><span class="sr-only">원양어업 통계조사</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-9"><span class="sr-only">입항선박톤급별통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-10"><span class="sr-only">천해양식어업통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-11"><span class="sr-only">한국선원통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-12"><span class="sr-only">항만국통제통계</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-13"><span class="sr-only">항만시설 및 능력현황</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-14"><span class="sr-only">해수수질실태보고</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-15"><span class="sr-only">해양사고현황</span></a>
+							<div class="depth2 non-content">
+							</div>
+						</li>
+						<li>
+							<a href="#none" class="menu-16"><span class="sr-only">화물수송실적</span></a>
+							<div class="depth2 non-content">
+							</div>
 						</li>
 					</ul>
-					<div class="pagination">
-						<a href="#" class="on"></a>
-						<a href="#"></a>
-					</div>
 				</div>
-				<div class="main-box type-3 rolling-banner-3">
-					<h3 class="sr-only">롤링배너 2</h3>
-					<ul>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-3-1.png" alt=""><span class="sr-only"></span></a></li>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-3-2.png" alt=""><span class="sr-only"></span></a></li>
+			</div>
+			<div class="main-box type-side">
+				<div class="map-type bg-style" style="background-image: url(../resources/front/images/part/main/map-type-bg.jpg);">
+					<h3 class="sr-only">지도기반 통계</h3>
+					<ul class="list">
+						<li>
+							<a href="#none" class="menu-1"><span class="sr-only">입항선박 톤급별 통계</span></a>
+						</li>
+						<li>
+							<a href="#none" class="menu-2"><span class="sr-only">수산물가공업통계</span></a>
+						</li>
+						<li>
+							<a href="#none" class="menu-3"><span class="sr-only">해수수질 실태보고 통계</span></a>
+						</li>
+						<li>
+							<a href="#none" class="menu-4"><span class="sr-only">어업생산 동향조사</span></a>
+						</li>
 					</ul>
-					<div class="pagination">
-						<a href="#" class="on"></a>
-						<a href="#"></a>
-					</div>
 				</div>
-				<div class="main-box type-3">
-					<h3 class="main-box-title"><span class="sr-only"><strong>자주찾은</strong>검색어</span></h3>
-					<div class="textcloud jqcloud">
-
-					</div>
+				<div class="dash-type bg-style" style="background-image: url(../resources/front/images/part/main/dash-type-bg.jpg);">
+					<h3 class="sr-only">해양수산 대시보드</h3>
+					<a href="#none" class="block-style"><span class="sr-only">해양수산 통계 시각화 서비스</span></a>
 				</div>
 			</div>
 			<div class="main-content">
 				<h3 class="sr-only">메인 콘텐츠</h3>
-				<div class="con-1">
+				<div class="con-0">
 					<h4 class="sr-only">통계정보</h4>
 					<div class="tab-menu">
 						<div class="tab-control">
-							<a href=".tab-content-1"><span class="notice-sp eq-1 on"><span class="sr-only">주요통계</span></span></a>
-							<a href=".tab-content-2"><span class="notice-sp eq-2"><span class="sr-only">인기통계</span></span></a>
-							<a href=".tab-content-3"><span class="notice-sp eq-3"><span class="sr-only">최근통계</span></span></a>
+							<a href="#none" class="e-nara"><span class="notice-sp eq-4 on"><span class="sr-only">e-나라지표</span></span></a>
 						</div>
 						<div class="tab-content-1 on">
 							<ul>
-								<li><a href="#">등록선박통계<span class="icon-sp new"></span><span class="department">해사안전정책과</span></a></li>
+								<li><a href="#"><span class="icon-sp new"></span>등록선박통계<span class="department">해사안전정책과</span></a></li>
 								<li><a href="#">등록어선통계<span class="department">어선정책팀</span></a></li>
 								<li><a href="#">수산물 가공업통계<span class="department">수출가공진흥과</span></a></li>
 								<li><a href="#">천해양식어업통계<span class="department">국립수산물품질관리원</span></a></li>
 								<li><a href="#">항만시설 및 능력현황<span class="department">해양생태과</span></a></li>
-							</ul>
-						</div>
-						<div class="tab-content-2">
-							<ul>
-								<li><a href="#">등록어선통계<span class="department">어선정책팀</span></a></li>
-								<li><a href="#">수산물 가공업통계<span class="department">수출가공진흥과</span></a></li>
-								<li><a href="#">등록선박통계<span class="icon-sp new"></span><span class="department">해사안전정책과</span></a></li>
-								<li><a href="#">천해양식어업통계<span class="department">국립수산물품질관리원</span></a></li>
-								<li><a href="#">항만시설 및 능력현황<span class="department">해양생태과</span></a></li>
-							</ul>
-						</div>
-						<div class="tab-content-3">
-							<ul>
-								<li><a href="#">등록어선통계<span class="department">어선정책팀</span></a></li>
-								<li><a href="#">수산물 가공업통계<span class="department">수출가공진흥과</span></a></li>
-								<li><a href="#">천해양식어업통계<span class="department">국립수산물품질관리원</span></a></li>
-								<li><a href="#">항만시설 및 능력현황<span class="department">해양생태과</span></a></li>
-								<li><a href="#">등록선박통계<span class="icon-sp new"></span><span class="department">해사안전정책과</span></a></li>
 							</ul>
 						</div>
 						<a href="#" class="btn-notice-more"><span class="sr-only">더보기</span></a>
 					</div>
-					
-
-
+				</div>
+				<div class="con-1 ">
+					<h4 class="sr-only">통계정보</h4>
+					<div class="tab-menu">
+						<div class="tab-control">
+							<a href="#none" class="normal"><span class="notice-sp eq-5 on"><span class="sr-only">일반지표</span></span></a>
+						</div>
+						<div class="tab-content-1 on">
+							<ul>
+								<li><a href="#"><span class="icon-sp new"></span>등록선박통계<span class="department">해사안전정책과</span></a></li>
+								<li><a href="#">등록어선통계<span class="department">어선정책팀</span></a></li>
+								<li><a href="#">수산물 가공업통계<span class="department">수출가공진흥과</span></a></li>
+								<li><a href="#">천해양식어업통계<span class="department">국립수산물품질관리원</span></a></li>
+								<li><a href="#">항만시설 및 능력현황<span class="department">해양생태과</span></a></li>
+							</ul>
+						</div>
+						<a href="#" class="btn-notice-more"><span class="sr-only">더보기</span></a>
+					</div>
 				</div>
 				<div class="con-2 main-quick">
+
 					<h4 class="sr-only">메인 퀵메뉴</h4>
 					<ul>
 						<li class="eq-1"><a href="#"><span>분야별통계</span></a></li>
@@ -296,17 +348,6 @@
 						<li class="eq-5"><a href="#"><span>통계담당 부서</span></a></li>
 						<li class="eq-6"><a href="#"><span>통계공표일정</span></a></li>
 					</ul>
-				</div>
-				<div class="con-3 rolling-banner-4">
-					<h4 class="sr-only">메인 롤링배너</h4>
-					<ul>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-4-1.jpg" alt=""><span class="sr-only"></span></a></li>
-						<li><a href="#"><img src="../resources/front/images/part/main/rolling-banner-4-1.jpg" alt=""><span class="sr-only"></span></a></li>
-					</ul>
-					<div class="pagination">
-						<a href="#" class="on"></a>
-						<a href="#"></a>
-					</div>
 				</div>
 				<div class="con-4 main-stock">
 					<h4 class="sr-only">실적정보</h4>
@@ -366,11 +407,8 @@
 						<a href="#" class="stock-sp stock-pause"><span class="sr-only">stop/start</span></a>
 						<a href="#" class="stock-sp stock-next"><span class="sr-only">다음</span></a>
 					</div>
-
 				</div>
-
 			</div>
-
 		</div>
 	</div>
 	<div class="family-index">
@@ -401,10 +439,8 @@
 				<a href="#" class="family-index-sp btn-family-next right"><span class="sr-only">다음</span></a>
 			</div>
 		</div>
-
 	</div>
-
-
+</div>
 <!-- Footer.html -->
 </div>
 <div id="footer">
@@ -432,17 +468,17 @@
 		</div>
 		<div class="family-site">
 			<div class="family-content">
-				<a href="#">패밀리사이트 바로가기</a>
+				<a href="#">관련기관 바로가기</a>
 				<ul>
-					<li><a href="#">패밀리사이트 바로가기1</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기1</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
 				</ul>
 			</div>
 			<a href="#" class="btn btn-primary"><span>이동</span></a>
@@ -450,7 +486,7 @@
 	</div>
 </div>
 </div>
-<div class="quick-menu top-banner">
+<div class="quick-menu">
 	<ul>
 		<li class="quick-1">
 			<a href="service-1.html">
