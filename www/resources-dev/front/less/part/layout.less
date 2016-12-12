@@ -33,10 +33,10 @@
 	top: 0;
 	z-index: 300;
 	background: @cleanColor url(../images/part/layout/header-bg.gif) 0 94px repeat-x;
-	border-bottom: 2px solid @pointColor-1;
+	border-bottom: 3px solid @pointColor-1;
 	
 	&, .container{
-		height: 133px;
+		height: 135px;
 	}
 	.container{
 		position: relative;
@@ -155,6 +155,7 @@ ul{
 				font-size: 18px;
 				font-weight: bold;
 				color: @pointColor-1;
+				letter-spacing: -1px;
 			}
 			>ul{
 				position: absolute;
@@ -268,6 +269,7 @@ ul{
 				font-size: 11px;
 				font-weight: bold;
 				color: @baseColor-4;
+				letter-spacing: -1px;
 			}
 			
 			&:first-child{
@@ -301,8 +303,7 @@ ul{
 	top: 94px;
 	width: 39px;
 	height: 39px;
-	background-color: @baseColor-2;
-	border: 1px solid #9f9f9f;
+	background-color: #b4e9f8;
 	border-right: none;
 	z-index: 1000;
 	overflow: hidden;
@@ -344,7 +345,7 @@ ul{
 			}
 		}
 		>a{
-			background: @baseColor-2 url(../images/part/layout/select-search.png) 95% 50% no-repeat;
+			background: url(../images/part/layout/select-search.png) 95% 50% no-repeat;
 		}
 		a{
 			display: block;
@@ -404,7 +405,7 @@ ul{
 	.btn-search{
 		position: absolute;
 		right: 0;
-		top: -1px;
+		top: 0;
 		display: inline-block;
 		width: 39px;
 		height: 39px;
@@ -418,9 +419,10 @@ ul{
 
 /* footer */
 #footer{
-	border-top: 2px solid @pointColor-1;
+	border-top: 3px solid @pointColor-1;
 	background-color: #fff;
 	height: 170px;
+	font-family:"맑은고딕", Arial, sans-serif;
 	
 	.container{
 		padding-top: 20px;
@@ -562,7 +564,7 @@ ul{
 				padding: 0 10px 0 11px;
 				font-size: 13px;
 				font-weight: bold;
-				color: @baseColor-6;
+				color: #777;
 				background: url(../images/part/layout/bar.png) 0 50% no-repeat;
 				
 				span{
@@ -622,7 +624,7 @@ ul{
 					width: 50px;
 					height: 50px;
 					float: left;
-					background: @pointColor-3 url(../images/part/layout/quick-1.png) 50% 50% no-repeat;
+					background: #40b9e3 url(../images/part/layout/quick-1.png) 50% 50% no-repeat;
 				}
 				.name{
 					display: block;

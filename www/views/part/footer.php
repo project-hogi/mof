@@ -25,17 +25,17 @@
 		</div>
 		<div class="family-site">
 			<div class="family-content">
-				<a href="#">패밀리사이트 바로가기</a>
+				<a href="#">관련기관 바로가기</a>
 				<ul>
-					<li><a href="#">패밀리사이트 바로가기1</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
-					<li><a href="#">패밀리사이트 바로가기2</a></li>
-					<li><a href="#">패밀리사이트 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기1</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
+					<li><a href="#">관련기관 바로가기2</a></li>
+					<li><a href="#">관련기관 바로가기3</a></li>
 				</ul>
 			</div>
 			<a href="#" class="btn btn-primary"><span>이동</span></a>
@@ -43,7 +43,7 @@
 	</div>
 </div>
 </div>
-<div class="quick-menu top-banner">
+<div class="quick-menu">
 	<ul>
 		<li class="quick-1">
 			<a href="service-1.php">
